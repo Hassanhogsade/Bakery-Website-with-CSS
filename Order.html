@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Order your Bakery today!</h1>
+    <p>Below we have a form for you to complete and sumbit, this form will give you a lot of options starting from your name that we will call you by then a email address were you will recieve a email confirmation. Once you complete this form take that email to the shop at your selected time range and collect your bakery fresh.</p>
+    <h2>Order Here What You Want To COllect!</h2>
+<!--text field for first name last name and email-->
+    <form action="completed.html" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email"><br>
+<!--radio list below-->
+        <p>What date do you want to collect?</p>
+        <input type="radio" id="Monday 1pm" name="date" value="Monday 1pm">
+        <label for="Monday 1pm">Monday 1pm</label><br>
+        <input type="radio" id="Tuesday 1pm" name="date" value="Tuesday 1pm">
+        <label for="Tuesday 1pm">Tuesday 1pm</label><br>
+        <input type="radio" id="Wednesday 1pm" name="date" value="Wednesday 1pm">
+        <label for="Wednesday 1pm">Wednesday 1pm</label><br>
+        <input type="radio" id="Thursday 1pm" name="date" value="Thursday 1pm">
+        <label for="Thursday 1pm">Thursday 1pm</label><br>
+        <input type="radio" id="Friday 1pm" name="date" value="Friday 1pm">
+        <label for="Friday 1pm">Friday 1pm</label><br>
+<!--Checkbox list below-->
+        <p>What treats do you want?</p> 
+        <input type="checkbox" id="Donuts x4" name="Donuts x4" value="Donuts x4">
+        <label for="Donuts x4">Donuts x4</label><br>
+        <input type="checkbox" id="Yum-Yum x4" name="Yum-Yum x4" value="Yum-Yum x4">
+        <label for="Yum-Yum x4">Yum-Yum x4</label><br>
+        <input type="checkbox" id="Cheese Pastie x1" name="Cheese Pastie x1" value="Cheese Pastie x1">
+        <label for="Cheese Pastie x1"> Cheese Pastie x1</label><br>
+        <input type="checkbox" id="Pains  Au Chocolat x2" name="Pains  Au Chocolat x2" value="Pains  Au Chocolat x2">
+        <label for="Pains  Au Chocolat x2"> Pains  Au Chocolat x2</label>
+<!--last bit of the form yes or no radio list-->
+        <p>Do you want us to package your items</p>
+        <input type="radio" id="yes" name="confirm" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="confirm" value="no">
+        <label for="no">No</label><br>
+
+        <p>Do you have any allergies?</p>
+        <input type="radio" id="yes" name="confirm2" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="confirm2" value="no">
+        <label for="no">No</label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
